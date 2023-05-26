@@ -2,7 +2,8 @@ package PageObject;
 
 import com.codeborne.selenide.SelenideElement;
 
-import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selectors.*;
+import static com.codeborne.selenide.Selenide.*;
 
 public class LoginPage {
 
@@ -13,7 +14,15 @@ public class LoginPage {
             passInput = $("#Password"),
             passInputText = $("#Password"),
             LoginBtn = $("#login-btn"),
-            LoginWelcomeText = $(".logged_in_welcome");
+            LoginWelcomeText = $(".logged_in_welcome"),
+            ProfileTextBtn = $(byText("პროფილი")),
+            ClickLeftArrow = $(".fa-angle-left"),
+            avtorisationIn = $(byText("ავტორიზაცია"), 1);
+
+
+
+
+
 
 
 }

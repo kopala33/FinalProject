@@ -7,8 +7,8 @@ public interface RegistrationPageData {
             confPassInput = "12345678",
             incorectEmail = "sdjhbfajs@jhsdfj.com",
 
-           incorectPasword = "1m1m1m1m",
+           IncorrectPassword = "1m1m1m1m",
 
-           incConfgPass =  "1m1m1m1m";
+           incConfigPass =  "1m1m1m1m";
 
 }

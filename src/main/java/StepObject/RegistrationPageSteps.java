@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.switchTo;
 public class RegistrationPageSteps extends RegistrationPage {
 
 
-    // registracia
+
     public RegistrationPageSteps GoRegistrationPage() {
         profileText.shouldBe(visible);
         profileClick.click();
@@ -38,6 +38,7 @@ public class RegistrationPageSteps extends RegistrationPage {
         passInput.setValue(pass);
         return this;
     }
+
     public RegistrationPageSteps confPassIn(String confPass) {
         confPassInput.setValue(confPass);
         return this;
@@ -63,6 +64,10 @@ public class RegistrationPageSteps extends RegistrationPage {
 
     public RegistrationPageSteps PopUpMessage() {
         ExitPopupMessage.shouldBe(visible, Duration.ofMillis(3000));
+        return this;
+    }
+
+    public RegistrationPageSteps PopUpOf() {
         ExitPopupClick.click();
         return this;
     }
@@ -73,16 +78,16 @@ public class RegistrationPageSteps extends RegistrationPage {
         return this;
     }
 
-//    public RegistrationPageSteps ArrowBtn() {
-//        ArrowLeftBtn.shouldBe(visible);
-//        return this;
-//    }
     public RegistrationPageSteps ArrowLeft() {
         ClickArrowLeft.click();
         return this;
     }
 
 
+    public RegistrationPageSteps error() {
+        errorTitle.shouldBe(visible);
+        return this;
+    }
 
 
 }

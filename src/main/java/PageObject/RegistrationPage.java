@@ -27,7 +27,12 @@ public class RegistrationPage {
             WelcomeMessText = $(".welcome-text-desktop"),
             WelcomeMessClick = $(".welcome-text-desktop"),
             ArrowLeftBtn = $(".fa-angle-left"),
-            ClickArrowLeft = $(".fa-angle-left");
+            ClickArrowLeft = $(".fa-angle-left"),
+            errorTitle = $(".error_title");
+
+
+
+
 
 
 }
