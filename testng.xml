@@ -8,12 +8,12 @@
     </test>
     <test name="Secoud" parallel="tests" >
         <classes>
-            <class name="ZoommerThreeTest"/>
+            <class name="ZoommerProductions"/>
         </classes>
     </test>
     <test name="third" parallel="tests" >
         <classes>
-            <class name="ZoommerTwoTest"/>
+            <class name="SmartDevices"/>
         </classes>
     </test>
 </suite>

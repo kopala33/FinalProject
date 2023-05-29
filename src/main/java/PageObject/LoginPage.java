@@ -7,22 +7,16 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class LoginPage {
 
-    public  SelenideElement
+    public SelenideElement
 
             emailInput = $("#EmailOrPhone"),
             emailInputText = $("#EmailOrPhone"),
             passInput = $("#Password"),
             passInputText = $("#Password"),
             LoginBtn = $("#login-btn"),
-            LoginWelcomeText = $(".logged_in_welcome"),
             ProfileTextBtn = $(byText("პროფილი")),
             ClickLeftArrow = $(".fa-angle-left"),
             avtorisationIn = $(byText("ავტორიზაცია"), 1);
-
-
-
-
-
 
 
 }

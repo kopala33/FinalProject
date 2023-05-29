@@ -5,7 +5,7 @@ public interface RegistrationPageData {
             email = "kopaladata@gmail.com",
             password = "12345678",
             confPassInput = "12345678",
-            incorectEmail = "sdjhbfajs@jhsdfj.com",
+            incorrectEmail = "sdjhbfajs@jhsdfj.com",
 
            IncorrectPassword = "1m1m1m1m",
 

@@ -24,15 +24,10 @@ public class RegistrationPage {
             RegBtn = $("#register-button"),
             ExitPopupMessage = $(".exit_popup"),
             ExitPopupClick = $(".exit_popup"),
-            WelcomeMessText = $(".welcome-text-desktop"),
             WelcomeMessClick = $(".welcome-text-desktop"),
             ArrowLeftBtn = $(".fa-angle-left"),
             ClickArrowLeft = $(".fa-angle-left"),
             errorTitle = $(".error_title");
-
-
-
-
 
 
 }
