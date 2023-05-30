@@ -1,6 +1,8 @@
 import StepObject.ZoommerProductionPageSteps;
 import Utills.ChromeRunner;
 import com.codeborne.selenide.Condition;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,6 +14,7 @@ public class ZoommerProductions extends ChromeRunner {
     ZoommerProductionPageSteps zoommerProductionPageSteps = new ZoommerProductionPageSteps();
 
     @Test
+    @Severity(SeverityLevel.NORMAL)
     public void ZoommerProductionSearch() {
 
         zoommerProductionPageSteps.productPage()
@@ -29,6 +32,7 @@ public class ZoommerProductions extends ChromeRunner {
     }
 
     @Test
+    @Severity(SeverityLevel.NORMAL)
     public void ZoommerProductionCount() {
 
         zoommerProductionPageSteps.LapClick()

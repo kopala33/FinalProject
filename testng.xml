@@ -13,7 +13,7 @@
     </test>
     <test name="third" parallel="tests" >
         <classes>
-            <class name="SmartDevices"/>
+            <class name="ZoommerSmartDevices"/>
         </classes>
     </test>
 </suite>

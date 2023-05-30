@@ -2,6 +2,8 @@ import StepObject.LoginPageSteps;
 import StepObject.RegistrationPageSteps;
 import Utills.ChromeRunner;
 import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,6 +20,7 @@ public class ZoommerRegister extends ChromeRunner {
 
     @Test
     @Description("რეგისტრაციის შემოწმება დადებითი მნიშვნელობებით")
+    @Severity(SeverityLevel.CRITICAL)
     public void positiveRegistration() {
 
         registrationPageSteps.GoRegistrationPage()
@@ -44,6 +47,7 @@ public class ZoommerRegister extends ChromeRunner {
 
     @Test
     @Description("რეგისტრაციის შემოწმება უარყოფითი მნიშვნელობებით")
+    @Severity(SeverityLevel.CRITICAL)
     public void negativeRegistration() {
 
         registrationPageSteps.GoRegistrationPage()
